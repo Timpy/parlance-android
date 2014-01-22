@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Default" parent="android:Theme" />
+    <style name="NoTitle" parent="android:Theme.NoTitleBar" />
+    <style name="FullScreen" parent="android:Theme.NoTitleBar.Fullscreen" /> 
+    <style name="AppBaseTheme" parent="android:Theme.Light"/>
+    <style name="AppTheme" parent="AppBaseTheme"/>
+    <style name="DarkActionBar" parent="android:Theme.DeviceDefault.Light.DarkActionBar"/>
+    <style name="NoActionBar" parent="android:Theme.DeviceDefault.Light.NoActionBar"/>
+    
+
+</resources>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/topLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/status_fragmentlayput"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:id="@+id/fragmentContainer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:paddingTop="40dp" />
+
+        <fragment
+            android:id="@+id/status"
+            android:name="org.linphone.StatusFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:layout="@layout/status" />
+        
+        <RelativeLayout
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        
+        <ImageView
+        	android:id="@+id/imageView1"
+        	android:layout_width="112dp"
+        	android:layout_height="110dp"
+        	android:layout_above="@+id/logo_imageview"
+        	android:src="@drawable/space" />
+
+    	<ImageView
+        	android:id="@+id/logo_imageview"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_alignParentBottom="true"
+        	android:layout_alignParentLeft="true"
+        	android:layout_marginBottom="132dp"
+        	android:src="@drawable/custom_logo" />
+    	
+    </RelativeLayout>
+        
+    </FrameLayout>
+    
+    
+
+</RelativeLayout>

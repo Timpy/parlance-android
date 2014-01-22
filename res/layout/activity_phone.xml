@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/cell_call_first">   
+         
+         <ImageView
+       	 	android:id="@+id/status_image"
+        	android:layout_width="wrap_content"
+       		android:layout_height="wrap_content"
+        	android:layout_alignParentLeft="true"
+        	android:layout_centerVertical="true"
+        	android:layout_marginLeft="29dp"
+        	android:src="@drawable/led_connected" />
+
+    	<TextView
+    	    android:id="@+id/register_stauts_textview"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:layout_centerVertical="true"
+    	    android:layout_marginLeft="15dp"
+    	    android:layout_toRightOf="@+id/status_image"
+    	    android:text="Registeration Status"
+    	    android:textColor="@color/text_color" />
+
+    </RelativeLayout>
+
+    <ViewFlipper 
+        android:id="@+id/res_viewFlipper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true" >
+                        
+        	<include
+        	    android:id="@+id/logo_layout"
+        	    android:layout_height="357dp"
+        	    layout="@layout/logo_layout" />
+   
+        	<include 
+            	android:id="@+id/recom_restaurants_layout" 
+            	layout="@layout/recom_restaurants_layout"/>
+            
+    </ViewFlipper>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="82dp" >
+
+        <ImageButton
+            android:id="@+id/button_refresh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"            
+            android:layout_toLeftOf="@+id/btn_viewFlipper"
+            android:background="@android:color/transparent"
+            android:scaleType="fitXY"
+            android:src="@drawable/btn_refresh" />
+
+        <ViewFlipper
+            android:id="@+id/btn_viewFlipper"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"            
+            android:layout_centerInParent="true"
+            android:layout_alignTop="@+id/imageButton1"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="6.5dp" >
+                        
+        	<include
+            	android:id="@+id/call_me_btn"
+            	layout="@layout/call_me_btn" />
+  
+        	<include 
+            	android:id="@+id/hung_up_btn" 
+            	layout="@layout/hung_up_btn"/>
+            
+        </ViewFlipper>
+
+        <ImageButton
+            android:id="@+id/button_about"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@+id/btn_viewFlipper"
+            android:background="@android:color/transparent"
+            android:scaleType="fitXY"
+            android:src="@drawable/btn_about" />
+
+    </RelativeLayout>
+
+
+    
+
+</LinearLayout>

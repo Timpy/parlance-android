@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="history_date_format">d MMM</string>
+	<string name="history_detail_date_format">EEEE MMM d HH:mm</string>
+	<string name="messages_date_format">HH:mm d MMM</string>
+	<string name="today_date_format">HH:mm</string>
+	<string name="picture_name_format">linphone-mms-%s.jpg</string>
+    
+	<string name="app_name">Linphone</string>
+	<string name="service_name">Linphone Service</string>
+	<string name="addressbook_label">Linphone</string>
+	<string name="notification_title">Linphone</string>
+	<string name="wait_dialog_text">Starting up</string>
+	<string name="notification_registered">Registered to %s </string> 
+	<string name="notification_register_failure">Fails to register to %s</string>
+	<string name="about_text"> Parlance Version 1.0 Intelligent Restaurant Assistant under GNU Public License V2\n http://parlance-project.eu\n\nCopyright Parlance\n© 2011-2014 by the Parlance Project. </string>
+	<string name="setup_welcome">This assistant will help you to find a good restuarant</string>
+	<string name="setup_create_account">Create an account on linphone.org</string>
+	
+        <string name="setup_username_hint">username</string>
+
+    <string name="tunnel_host"></string>
+</resources>
+ 

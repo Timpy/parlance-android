@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/topLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+ 	
+    <!-- Hack to adjust perfectly on every screen the bottom of the fragment with the curved menu -->
+   <ViewFlipper 
+        android:id="@+id/mark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/menu"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true" >
+                        
+        	<include
+        	    android:id="@+id/viewLogo"
+        	    layout="@layout/logo_layout" />
+   
+        	<include 
+            	android:id="@+id/viewList" 
+            	layout="@layout/list_fragment"/>
+        	
+        	<include 
+            	android:id="@+id/viewAbout" 
+            	layout="@layout/about"/>
+            
+    </ViewFlipper>
+    
+     <RelativeLayout
+        android:id="@+id/menu" 
+        android:layout_width="match_parent"
+        android:layout_height="82dp"
+        android:layout_alignParentBottom="true" >
+
+        <ImageButton
+            android:id="@+id/button_refresh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"            
+            android:layout_toLeftOf="@+id/btn_viewFlipper"
+            android:background="@android:color/transparent"
+            android:scaleType="fitXY"
+            android:contentDescription="@string/content_description_refresh"
+            android:src="@drawable/btn_refresh" />
+
+        
+        <ViewFlipper
+            android:id="@+id/btn_viewFlipper"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"            
+            android:layout_centerInParent="true"
+            android:layout_alignTop="@+id/imageButton1"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="6.5dp" >
+                        
+        	<include
+            	android:id="@+id/call_me_btn"
+            	layout="@layout/call_me_btn" />
+  
+        	<include 
+            	android:id="@+id/hung_up_btn" 
+            	layout="@layout/hang_up_btn"/>
+            
+        </ViewFlipper>
+        
+
+        <ImageButton
+            android:id="@+id/button_about"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@+id/btn_viewFlipper"
+            android:background="@android:color/transparent"
+            android:scaleType="fitXY"
+            android:contentDescription="@string/content_description_about"
+            android:src="@drawable/btn_about" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
