@@ -1,81 +1,81 @@
 [submodule "linphone"]
 	path = submodules/linphone
-	url = https://github.com/yy147/parlance-android/linphone
+	url = git://git.linphone.org/linphone
 [submodule "submodules/externals/gsm"]
 	path = submodules/externals/gsm
-	url = https://github.com/yy147/parlance-android/gsm.git
+	url = git://git.linphone.org/gsm.git
 [submodule "submodules/externals/speex"]
 	path = submodules/externals/speex
-	url = https://github.com/yy147/parlance-android/speex
+	url = git://git.linphone.org/speex
 [submodule "submodules/msilbc"]
 	path = submodules/msilbc
-	url = https://github.com/yy147/parlance-android/msilbc.git
+	url = git://git.linphone.org/msilbc.git
 [submodule "submodules/libilbc-rfc3951"]
 	path = submodules/libilbc-rfc3951
-	url = https://github.com/yy147/parlance-android/libilbc-rfc3951.git
+	url = git://git.linphone.org/libilbc-rfc3951.git
 [submodule "submodules/externals/ffmpeg"]
 	path = submodules/externals/ffmpeg
-	url = https://github.com/yy147/parlance-android/ffmpeg
+	url = git://git.videolan.org/ffmpeg
 [submodule "submodules/externals/x264"]
 	path = submodules/externals/x264
-	url = https://github.com/yy147/parlance-android/x264.git
+	url = git://git.videolan.org/x264.git
 [submodule "submodules/msx264"]
 	path = submodules/msx264
-	url = https://github.com/yy147/parlance-android/msx264.git
+	url = git://git.linphone.org/msx264.git
 [submodule "submodules/externals/openssl"]
 	path = submodules/externals/openssl
-	url = https://github.com/yy147/parlance-android/android-openssl.git
+	url = git://git.linphone.org/android-openssl.git
 [submodule "submodules/externals/opencore-amr"]
 	path = submodules/externals/opencore-amr
-	url = https://github.com/yy147/parlance-android/p/opencore-amr/code
+	url = git://git.code.sf.net/p/opencore-amr/code
 [submodule "submodules/msamr"]
 	path = submodules/msamr
-	url = https://github.com/yy147/parlance-android/msamr
+	url = git://git.linphone.org/msamr
 [submodule "submodules/externals/libvpx"]
 	path = submodules/externals/libvpx
-	url = https://github.com/yy147/parlance-android/webm/libvpx.git
+	url = http://git.chromium.org/webm/libvpx.git
 [submodule "submodules/externals/libzrtpcpp"]
 	path = submodules/externals/libzrtpcpp
-	url = https://github.com/yy147/parlance-android/zrtpcpp.git
+	url = git://git.linphone.org/zrtpcpp.git
 [submodule "submodules/externals/srtp"]
 	path = submodules/externals/srtp
-	url = https://github.com/yy147/parlance-android/srtp.git
+	url = git://git.linphone.org/srtp.git
 [submodule "submodules/mssilk"]
 	path = submodules/mssilk
-	url = https://github.com/yy147/parlance-android/mssilk.git
+	url = git://git.linphone.org/mssilk.git
 [submodule "submodules/externals/vo-amrwbenc"]
 	path = submodules/externals/vo-amrwbenc
-	url = https://github.com/yy147/parlance-android/p/opencore-amr/vo-amrwbenc
+	url = git://git.code.sf.net/p/opencore-amr/vo-amrwbenc
 [submodule "submodules/bcg729"]
 	path = submodules/bcg729
-	url = https://github.com/yy147/parlance-android/bcg729.git
+	url = git://git.linphone.org/bcg729.git
 [submodule "submodules/externals/webrtc"]
 	path = submodules/externals/webrtc
-	url = https://github.com/yy147/parlance-android/webrtc.git
+	url = git://git.linphone.org/webrtc.git
 [submodule "submodules/belle-sip"]
 	path = submodules/belle-sip
-	url = https://github.com/yy147/parlance-android/belle-sip
+	url = git://git.linphone.org/belle-sip
 [submodule "submodules/externals/antlr3"]
 	path = submodules/externals/antlr3
-	url = https://github.com/yy147/parlance-android/antlr3.git
+	url = git://git.linphone.org/antlr3.git
 [submodule "submodules/externals/libxml2"]
 	path = submodules/externals/libxml2
-	url = https://github.com/yy147/parlance-android/libxml2
+	url = git://git.gnome.org/libxml2
 [submodule "submodules/externals/libupnp"]
 	path = submodules/externals/libupnp
-	url = https://github.com/yy147/parlance-android/p/pupnp/code
+	url = git://git.code.sf.net/p/pupnp/code
 [submodule "submodules/externals/cunit"]
 	path = submodules/externals/cunit
-	url = https://github.com/yy147/parlance-android/cunit.git
+	url = git://git.linphone.org/cunit.git
 [submodule "submodules/externals/axmlrpc"]
 	path = submodules/externals/axmlrpc
-	url = https://github.com/yy147/parlance-android/axmlrpc.git
+	url = git://git.linphone.org/axmlrpc.git
 [submodule "submodules/externals/polarssl"]
 	path = submodules/externals/polarssl
-	url = https://github.com/yy147/parlance-android/polarssl.git
+	url = git://git.linphone.org/polarssl.git
 [submodule "submodules/externals/opus"]
 	path = submodules/externals/opus
-	url = https://github.com/yy147/parlance-android/opus.git
+	url = git://git.opus-codec.org/opus.git
 [submodule "submodules/msisac"]
 	path = submodules/msisac
-	url = https://github.com/yy147/parlance-android/msisac.git
+	url = git://git.linphone.org/msisac.git
