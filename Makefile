@@ -1,4 +1,4 @@
-NDK_PATH=$(shell dirname `which ndk-build`)
+NDK_PATH="$(shell dirname `which ndk-build`)/"
 SDK_PATH=$(shell dirname `which android`)
 SDK_PLATFORM_TOOLS_PATH=$(shell dirname `which adb`)
 ARM_COMPILER_PATH=`find "$(NDK_PATH)" -name "arm-linux-androideabi-gcc*" -print -quit`
